@@ -1,0 +1,323 @@
+.container{
+    margin: 0px 60px;
+}
+.anchor {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navimg {
+    width: 120px;
+    height: 32px;
+    margin-top: 13px;
+}
+.navtext{
+    font-size: 12px;
+}
+
+.navtext:hover {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    height: 20px;
+    padding: 2px;
+    width: auto;
+    border: 5px solid black;
+    cursor: pointer;
+    font-family: Cambria;
+}
+
+/* .slider {
+    background-image: url(./main\ \(3\).jpg);
+    width: 100%;
+    height: 550px;
+    margin-right: 50px;
+
+} */
+.sliderimg {
+    position: relative;
+    width: 100%;
+}
+
+.slidertext {
+    position: absolute;
+    font-family: verdana;
+    top: 210px;
+    padding-left: 70px;
+    font-size: 18px;
+
+}
+
+.sliderbtn {
+    color: white;
+    background-color: black;
+    border-radius: 29px;
+    height: auto;
+    width: auto;
+    border: 10px solid black;
+
+}
+
+.sliderbtn:hover {
+    background-color: grey;
+    border: 10px solid gray;
+}
+
+.maina {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: verdana;
+
+}
+
+.maina:hover {
+    color: gray;
+}
+
+.mainau {
+    color: black;
+    font-style: bold;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+.maindivs {
+    display: flex;
+}
+
+.sinimg {
+    border-radius: 45px;
+    margin: 15px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.douimg {
+    width: 50%;
+    height: 650px;
+
+}
+
+.sintext {
+    position: absolute;
+    left: 240px;
+    margin-top: 450px;
+
+}
+.doudiv1{
+width: 100%;
+margin-top: 5px;
+height: 50%;
+display: flex;
+cursor: pointer;
+}
+.doudiv11 {
+    text-align: center;
+   margin: 2px; 
+    width: 50%;
+    height: 90%;
+    background-color:rgb(242, 242, 242);
+    
+    border-radius: 45px;
+}
+.divh6{
+    height: 90px;
+    width: auto;
+    
+}
+.divh6:hover{
+    display: none;
+}
+
+
+.divbtn{
+    
+    color: white;
+    background-color: black;
+    border-radius: 29px;
+    height: auto;
+    width: auto;
+    border: 10px solid black; 
+    
+}
+
+/* .doudiv12 {
+    margin: 10px;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background-color:rgb(242, 242, 242);
+    border-radius: 45px;
+
+} */
+/* .doudiv2{
+    margin-top: 10px;
+width: 100%;
+height: 50%;
+display: flex;
+
+} */
+/* .doudiv22 {
+text-align: center;
+    margin: 10px;
+    cursor: pointer;
+height: 100%;
+    width: 50%;
+    background-color:rgb(242, 242, 242);
+    border-radius: 45px;
+}
+
+.doudiv23 {
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+      background-color:rgb(242, 242, 242);
+    border-radius: 45px;
+} */
+
+.sinbtn {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 29px;
+    height: auto;
+    width: auto;
+
+    border: 10px solid rgba(0, 0, 0, 0);
+
+}
+
+.sinbtn:hover {
+    color: white;
+    background-color: black;
+    display: block;
+    border: 10px solid black;
+}
+.maindiv{
+    display: flex;
+    text-align: center;
+}
+.maindiv1{
+
+    width: 25%;
+    height: 500px;
+    
+}
+.maindiv2{
+    background-color:rgb(242, 242, 242);
+    width: 50%;
+    height: 500px;
+    position: relative;
+    margin: 10px;
+    border-radius: 45px;
+}
+
+.maindiv3{
+    
+    width: 25%;
+    height: 500px;
+}
+.doudivimg:hover{
+    content: url(./images/flip.png);
+
+}
+.maindiv11{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    border-radius: 45px;
+    background-color:rgb(242, 242, 242);
+}
+.mainimg{
+width: 100%;
+height: 100%;
+position: relative;
+text-align: center;
+border-radius: 45px;
+}
+.mainimg:hover{
+    content: url(./images/main13.jpg);
+    
+}
+.maindiv2text{
+    left: 200px;
+    top: 330px;
+    position: absolute;
+}
+.divbtn2{
+    
+    color: white;
+    background-color: black;
+    border-radius: 29px;
+
+    height: auto;
+    width: auto;
+    border: 10px solid black; 
+}
+.divh62{
+    
+    width: auto;
+    
+
+}
+.imgwatch{
+    height: 120px;
+    width: 150px;
+    margin: 5px;
+   
+}
+.imgwatch:hover{
+    content: url(./images/CX_HP_TRENDING_P4_MO-removebg-preview.png);
+}
+.divbtnwatch{
+    
+    color:transparent;
+    background-color: transparent;
+    border-radius: 29px;
+    height: auto;
+    width: auto;
+    border: 6px solid transparent;
+    
+}
+.divbtnwatch:hover{
+    
+    color: white;
+    background-color: black;
+    border-radius: 29px;
+    height: auto;
+    width: auto;
+    border: 6px solid black;
+}
+.mobileimg{
+    width: 50%;
+    height: auto;
+}
+.expo:hover{
+text-decoration: underline;
+color: rgb(34, 33, 33);
+}
+.divlast{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.divlast1{
+    height: 500px;
+    width: 50%;
+    
+}
+.divlast1img:hover{
+    content: url(./images/Hero_684x684.jpg);
+}
+.divlast2{
+    height: 100%;
+    width: 50%;
+    
+}
